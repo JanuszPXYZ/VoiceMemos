@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyTableViewCell" rowHeight="60" id="Mht-Xv-PsT" customClass="MyTableViewCell" customModule="VoiceMemosSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mht-Xv-PsT" id="bRy-pJ-EYJ">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rch-CF-JVR">
+                        <rect key="frame" x="12" y="0.0" width="190" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="190" id="6N7-7r-fdN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="SYA-ng-LQ6">
+                        <rect key="frame" x="263" y="0.0" width="120" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9b-SN-Kne">
+                                <rect key="frame" x="0.0" y="0.0" width="120" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dwg-dP-wGx">
+                                <rect key="frame" x="0.0" y="30" width="120" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="FNR-aF-vRT"/>
+                            <constraint firstAttribute="height" constant="60" id="eHk-5e-3DR"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Rch-CF-JVR" firstAttribute="top" secondItem="bRy-pJ-EYJ" secondAttribute="top" id="Dgq-YR-XK9"/>
+                    <constraint firstItem="Rch-CF-JVR" firstAttribute="leading" secondItem="bRy-pJ-EYJ" secondAttribute="leading" constant="12" id="aEl-Qv-Yj0"/>
+                    <constraint firstAttribute="bottom" secondItem="Rch-CF-JVR" secondAttribute="bottom" id="ec8-Xw-SVL"/>
+                    <constraint firstAttribute="trailing" secondItem="SYA-ng-LQ6" secondAttribute="trailing" constant="10" id="mPj-QJ-FOM"/>
+                    <constraint firstItem="SYA-ng-LQ6" firstAttribute="top" secondItem="bRy-pJ-EYJ" secondAttribute="top" id="tN5-IZ-0Fk"/>
+                    <constraint firstAttribute="bottom" secondItem="SYA-ng-LQ6" secondAttribute="bottom" id="yXJ-VQ-x9T"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="dateLabel" destination="k9b-SN-Kne" id="Vzh-6f-QJw"/>
+                <outlet property="memoTitle" destination="Rch-CF-JVR" id="zGS-vo-rug"/>
+                <outlet property="timeLabel" destination="Dwg-dP-wGx" id="NOu-4Q-fDT"/>
+            </connections>
+            <point key="canvasLocation" x="-35.877862595419849" y="6.3380281690140849"/>
+        </tableViewCell>
+    </objects>
+</document>

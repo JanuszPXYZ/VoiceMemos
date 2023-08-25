@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272042112A98D3DA00811F5E /* OnboardingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272042102A98D3DA00811F5E /* OnboardingSettings.swift */; };
+		272042132A98D48D00811F5E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272042122A98D48D00811F5E /* OnboardingViewController.swift */; };
+		274EF2092A89798E00F427E3 /* RecordPauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EF2082A89798E00F427E3 /* RecordPauseButton.swift */; };
+		274EF20B2A89851600F427E3 /* StopRecordingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EF20A2A89851600F427E3 /* StopRecordingButton.swift */; };
+		274EF20D2A89886400F427E3 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 274EF20C2A89886400F427E3 /* MyTableViewCell.xib */; };
+		274EF20F2A89888200F427E3 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EF20E2A89888200F427E3 /* MyTableViewCell.swift */; };
+		276F67A82A8D53E400F25A3A /* VoiceMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F67A72A8D53E400F25A3A /* VoiceMemo.swift */; };
+		276F67AA2A8D588800F25A3A /* RecorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F67A92A8D588800F25A3A /* RecorderController.swift */; };
+		27E2D8ED2A88426D00F7A93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2D8EC2A88426D00F7A93A /* AppDelegate.swift */; };
+		27E2D8EF2A88426D00F7A93A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2D8EE2A88426D00F7A93A /* SceneDelegate.swift */; };
+		27E2D8F12A88426D00F7A93A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2D8F02A88426D00F7A93A /* ViewController.swift */; };
+		27E2D8F42A88426D00F7A93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E2D8F22A88426D00F7A93A /* Main.storyboard */; };
+		27E2D8F62A88426E00F7A93A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E2D8F52A88426E00F7A93A /* Assets.xcassets */; };
+		27E2D8F92A88426E00F7A93A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E2D8F72A88426E00F7A93A /* LaunchScreen.storyboard */; };
+		27E2D9012A8842FE00F7A93A /* CircularView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E2D9002A8842FE00F7A93A /* CircularView.xib */; };
+		27E2D9032A88435600F7A93A /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2D9022A88435600F7A93A /* CircularView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		272042102A98D3DA00811F5E /* OnboardingSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSettings.swift; sourceTree = "<group>"; };
+		272042122A98D48D00811F5E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		274EF2082A89798E00F427E3 /* RecordPauseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPauseButton.swift; sourceTree = "<group>"; };
+		274EF20A2A89851600F427E3 /* StopRecordingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopRecordingButton.swift; sourceTree = "<group>"; };
+		274EF20C2A89886400F427E3 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		274EF20E2A89888200F427E3 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		276F67A72A8D53E400F25A3A /* VoiceMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemo.swift; sourceTree = "<group>"; };
+		276F67A92A8D588800F25A3A /* RecorderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderController.swift; sourceTree = "<group>"; };
+		27E2D8E92A88426D00F7A93A /* VoiceMemosSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemosSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E2D8EC2A88426D00F7A93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27E2D8EE2A88426D00F7A93A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27E2D8F02A88426D00F7A93A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27E2D8F32A88426D00F7A93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27E2D8F52A88426E00F7A93A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E2D8F82A88426E00F7A93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27E2D8FA2A88426E00F7A93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E2D9002A8842FE00F7A93A /* CircularView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircularView.xib; sourceTree = "<group>"; };
+		27E2D9022A88435600F7A93A /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E2D8E62A88426D00F7A93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2720420E2A98D3AF00811F5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				276F67A72A8D53E400F25A3A /* VoiceMemo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2720420F2A98D3C300811F5E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				272042102A98D3DA00811F5E /* OnboardingSettings.swift */,
+				272042122A98D48D00811F5E /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		274EF2102A898D5900F427E3 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				27E2D9022A88435600F7A93A /* CircularView.swift */,
+				27E2D9002A8842FE00F7A93A /* CircularView.xib */,
+				274EF20E2A89888200F427E3 /* MyTableViewCell.swift */,
+				274EF20C2A89886400F427E3 /* MyTableViewCell.xib */,
+				274EF2082A89798E00F427E3 /* RecordPauseButton.swift */,
+				274EF20A2A89851600F427E3 /* StopRecordingButton.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		27E2D8E02A88426D00F7A93A = {
+			isa = PBXGroup;
+			children = (
+				27E2D8EB2A88426D00F7A93A /* VoiceMemosSwift */,
+				27E2D8EA2A88426D00F7A93A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27E2D8EA2A88426D00F7A93A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E2D8E92A88426D00F7A93A /* VoiceMemosSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E2D8EB2A88426D00F7A93A /* VoiceMemosSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2720420F2A98D3C300811F5E /* Onboarding */,
+				2720420E2A98D3AF00811F5E /* Model */,
+				274EF2102A898D5900F427E3 /* Custom Views */,
+				27E2D8EC2A88426D00F7A93A /* AppDelegate.swift */,
+				27E2D8EE2A88426D00F7A93A /* SceneDelegate.swift */,
+				276F67A92A8D588800F25A3A /* RecorderController.swift */,
+				27E2D8F02A88426D00F7A93A /* ViewController.swift */,
+				27E2D8F22A88426D00F7A93A /* Main.storyboard */,
+				27E2D8F52A88426E00F7A93A /* Assets.xcassets */,
+				27E2D8F72A88426E00F7A93A /* LaunchScreen.storyboard */,
+				27E2D8FA2A88426E00F7A93A /* Info.plist */,
+			);
+			path = VoiceMemosSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E2D8E82A88426D00F7A93A /* VoiceMemosSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E2D8FD2A88426E00F7A93A /* Build configuration list for PBXNativeTarget "VoiceMemosSwift" */;
+			buildPhases = (
+				27E2D8E52A88426D00F7A93A /* Sources */,
+				27E2D8E62A88426D00F7A93A /* Frameworks */,
+				27E2D8E72A88426D00F7A93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceMemosSwift;
+			productName = VoiceMemosSwift;
+			productReference = 27E2D8E92A88426D00F7A93A /* VoiceMemosSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E2D8E12A88426D00F7A93A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					27E2D8E82A88426D00F7A93A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 27E2D8E42A88426D00F7A93A /* Build configuration list for PBXProject "VoiceMemosSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E2D8E02A88426D00F7A93A;
+			productRefGroup = 27E2D8EA2A88426D00F7A93A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E2D8E82A88426D00F7A93A /* VoiceMemosSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E2D8E72A88426D00F7A93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274EF20D2A89886400F427E3 /* MyTableViewCell.xib in Resources */,
+				27E2D8F92A88426E00F7A93A /* LaunchScreen.storyboard in Resources */,
+				27E2D9012A8842FE00F7A93A /* CircularView.xib in Resources */,
+				27E2D8F62A88426E00F7A93A /* Assets.xcassets in Resources */,
+				27E2D8F42A88426D00F7A93A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E2D8E52A88426D00F7A93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274EF20F2A89888200F427E3 /* MyTableViewCell.swift in Sources */,
+				27E2D8F12A88426D00F7A93A /* ViewController.swift in Sources */,
+				27E2D9032A88435600F7A93A /* CircularView.swift in Sources */,
+				276F67AA2A8D588800F25A3A /* RecorderController.swift in Sources */,
+				27E2D8ED2A88426D00F7A93A /* AppDelegate.swift in Sources */,
+				27E2D8EF2A88426D00F7A93A /* SceneDelegate.swift in Sources */,
+				274EF2092A89798E00F427E3 /* RecordPauseButton.swift in Sources */,
+				272042112A98D3DA00811F5E /* OnboardingSettings.swift in Sources */,
+				276F67A82A8D53E400F25A3A /* VoiceMemo.swift in Sources */,
+				272042132A98D48D00811F5E /* OnboardingViewController.swift in Sources */,
+				274EF20B2A89851600F427E3 /* StopRecordingButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27E2D8F22A88426D00F7A93A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E2D8F32A88426D00F7A93A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27E2D8F72A88426E00F7A93A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E2D8F82A88426E00F7A93A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27E2D8FB2A88426E00F7A93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E2D8FC2A88426E00F7A93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E2D8FE2A88426E00F7A93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SP24WVWCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceMemosSwift/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App uses the microphone to record voice memos";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.januszpolowczyk.VoiceMemosSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27E2D8FF2A88426E00F7A93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SP24WVWCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceMemosSwift/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App uses the microphone to record voice memos";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.januszpolowczyk.VoiceMemosSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E2D8E42A88426D00F7A93A /* Build configuration list for PBXProject "VoiceMemosSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E2D8FB2A88426E00F7A93A /* Debug */,
+				27E2D8FC2A88426E00F7A93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E2D8FD2A88426E00F7A93A /* Build configuration list for PBXNativeTarget "VoiceMemosSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E2D8FE2A88426E00F7A93A /* Debug */,
+				27E2D8FF2A88426E00F7A93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E2D8E12A88426D00F7A93A /* Project object */;
+}
